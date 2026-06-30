@@ -359,6 +359,6 @@ LOCATIONS_NON_INDIA: frozenset[str] = frozenset(
 
 EXPERIENCE_IDEAL_MIN: float = 6.0
 EXPERIENCE_IDEAL_MAX: float = 8.0
-EXPERIENCE_SOFT_MIN: float = 4.0   # below this starts losing points
+EXPERIENCE_SOFT_MIN: float = 4.0  # below this starts losing points
 EXPERIENCE_SOFT_MAX: float = 10.0  # above this starts losing points (over-seniorised)
-EXPERIENCE_HARD_MIN: float = 2.0   # hard floor
+EXPERIENCE_HARD_MIN: float = 2.0  # hard floor

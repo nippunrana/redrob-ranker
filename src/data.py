@@ -117,14 +117,16 @@ class Candidate:
     @property
     def text(self) -> str:
         """Concatenated text used for embedding and BM25 indexing."""
-        parts = [
-            self.profile.headline,
-            self.profile.summary,
-        ]
+        parts: list[str] = []
+        if self.profile.headline:
+            parts.append(self.profile.headline)
+        if self.profile.summary:
+            parts.append(self.profile.summary)
         for job in self.career_history:
             parts.append(f"{job.title} at {job.company}: {job.description}")
         for skill in self.skills:
-            parts.append(skill.name)
+            if skill.name:
+                parts.append(skill.name)
         return " ".join(parts)
 
     @property
