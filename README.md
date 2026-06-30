@@ -17,11 +17,11 @@ pip install -e ".[dev]"
 #    Skip if artifacts/dense_recall_ids.npy is already committed (it is).
 python precompute.py --candidates ./candidates.jsonl
 
-# 3. Rank — produces egnitech-nippun.csv in ~10s
-python rank.py --candidates ./candidates.jsonl --out ./egnitech-nippun.csv
+# 3. Rank — produces EgniTech.csv in ~10s
+python rank.py --candidates ./candidates.jsonl --out ./EgniTech.csv
 
 # 4. Validate format
-python ../validate_submission.py ./egnitech-nippun.csv
+python ../validate_submission.py ./EgniTech.csv
 ```
 
 **No network, no GPU, no model downloads at ranking time.**
@@ -95,7 +95,7 @@ candidates.jsonl (100K)
 └─────────────────────────────────────────────────┘
         │
         ▼
-  egnitech-nippun.csv  (100 rows, passes validate_submission.py)
+  EgniTech.csv  (100 rows, passes validate_submission.py)
 ```
 
 ### Key design decisions
@@ -140,7 +140,7 @@ Calibrated against CAND_0000031 (archetype, M.Tech 2002–2006 vs 6 YOE — pass
 
 ```
 redrob-ranker/
-  rank.py                   # Entry point: candidates.jsonl → egnitech-nippun.csv
+  rank.py                   # Entry point: candidates.jsonl → EgniTech.csv
   precompute.py             # One-time: build dense recall artifact
   src/
     data.py                 # Streaming JSONL parser, typed Candidate dataclass
