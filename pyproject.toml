@@ -32,6 +32,7 @@ select = ["E", "F", "I", "B"]
 # Skill-dict and comment data in test fixtures is wide by nature.
 "tests/test_scoring.py" = ["E501"]
 "tests/test_honeypot.py" = ["E501"]
+"tests/test_reasoning.py" = ["E501"]
 
 [tool.ruff.format]
 quote-style = "double"
