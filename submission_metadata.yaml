@@ -1,0 +1,59 @@
+team_name: "egnitech-nippun"
+
+primary_contact:
+  name: "Nippun Rana"
+  email: "nippun@egnitech.com"
+  phone: ""
+
+team_members:
+  - name: "Nippun Rana"
+    email: "nippun@egnitech.com"
+    role: "Solo"
+
+github_repo: "https://github.com/egnitech/redrob-ranker"
+
+sandbox_link: "https://huggingface.co/spaces/egnitech/redrob-ranker"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "MacBook Pro M3"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.9.6"
+  os: "macOS 15.5"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 12
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude Code (claude-opus-4-8) as a pair-programmer for architecture
+  discussion, code generation, and iteration. No candidate data was fed to
+  any LLM — all JD-grounding, scoring, and reasoning generation is
+  deterministic code with no API calls during ranking.
+
+methodology_summary: |
+  Hybrid recall + grounded rerank pipeline. Offline: encode 100K candidate
+  texts with all-MiniLM-L6-v2, save top-10K cosine neighbors of the JD
+  query as a committed artifact (precompute.py). Runtime: rebuild BM25 over
+  all 100K (~6s), RRF-fuse dense + BM25 → 5000-candidate recall pool, score
+  each with a 6-component structured feature vector (title tier × 0.20 +
+  career retrieval evidence × 0.30 + production deployment evidence × 0.15 +
+  skill trust × 0.15 + experience fit × 0.10 + location boost × 0.10),
+  multiply by behavioral modifier (recency/OTW/response rate/completeness)
+  and honeypot guard. Honeypot guard (two axes: YOE inflation vs actual
+  career dates, education timeline vs implied career start) hard-zeros double
+  hits, 50% penalty for single hits. Zero keyword stuffers and zero honeypots
+  in top-100. Feature-grounded reasoning strings cite actual facts from each
+  candidate object with no LLM. Total: 9.5s wall-clock on 100K candidates.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
