@@ -1,12 +1,12 @@
 """Tests for src/jd.py — JD requirement definitions."""
 
 from src.jd import (
+    CAREER_RETRIEVAL_KEYWORDS,
+    SERVICES_COMPANIES,
+    SKILLS_MUST_HAVE,
     TITLE_DISQUALIFIER,
     TITLE_RESEARCH_OR_CV,
     TITLE_STRONG_POSITIVE,
-    SERVICES_COMPANIES,
-    CAREER_RETRIEVAL_KEYWORDS,
-    SKILLS_MUST_HAVE,
 )
 
 
@@ -16,7 +16,9 @@ def test_titles_are_mutually_exclusive() -> None:
     overlap_strong_research = TITLE_STRONG_POSITIVE & TITLE_RESEARCH_OR_CV
     overlap_dq_research = TITLE_DISQUALIFIER & TITLE_RESEARCH_OR_CV
     assert not overlap_strong_dq, f"Strong + disqualifier overlap: {overlap_strong_dq}"
-    assert not overlap_strong_research, f"Strong + research overlap: {overlap_strong_research}"
+    assert not overlap_strong_research, (
+        f"Strong + research overlap: {overlap_strong_research}"
+    )
     assert not overlap_dq_research, f"DQ + research overlap: {overlap_dq_research}"
 
 
@@ -44,7 +46,7 @@ def test_sample_submission_titles_are_disqualified() -> None:
 
 
 def test_jd_explicitly_rejected_titles_are_penalised() -> None:
-    """AI Research Engineer and Computer Vision Engineer must be in TITLE_RESEARCH_OR_CV."""
+    """Rejected titles (research/CV-primary) must be in TITLE_RESEARCH_OR_CV."""
     assert "AI Research Engineer" in TITLE_RESEARCH_OR_CV
     assert "Computer Vision Engineer" in TITLE_RESEARCH_OR_CV
 

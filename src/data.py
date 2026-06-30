@@ -13,7 +13,8 @@ from __future__ import annotations
 import gzip
 import json
 import logging
-from dataclasses import dataclass, field
+from collections.abc import Iterator
+from dataclasses import dataclass
 from pathlib import Path
 
 log = logging.getLogger(__name__)
@@ -235,12 +236,11 @@ def parse_candidate(raw: dict) -> Candidate:
 # ---------------------------------------------------------------------------
 
 
-def iter_candidates(path: Path) -> "Generator[Candidate, None, None]":
+def iter_candidates(path: Path) -> Iterator["Candidate"]:
     """Yield Candidate objects one-by-one from a JSONL or gzipped JSONL file.
 
     Keeps memory usage bounded — suitable for 100K × 465 MB files.
     """
-    from typing import Generator  # avoid top-level circular import
 
     opener = gzip.open if path.suffix == ".gz" else open
     log.info("Streaming candidates from %s", path)

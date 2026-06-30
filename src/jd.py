@@ -64,9 +64,9 @@ TITLE_STRONG_POSITIVE: frozenset[str] = frozenset(
 )
 
 # Titles the JD explicitly penalises by role type.
-# "AI Research Engineer" → pure-research red flag (JD rejects: "no production deployment").
-# "Computer Vision Engineer" → CV/robotics/speech-primary (JD: "re-learning fundamentals").
-# "AI Specialist" → often pure-research or consulting-flavored; needs career-level check.
+# "AI Research Engineer" → pure-research red flag (JD: "no production deployment").
+# "Computer Vision Engineer" → CV/robotics/speech-primary (JD: fundamentals mismatch).
+# "AI Specialist" → often pure-research / consulting-flavored; needs career check.
 TITLE_RESEARCH_OR_CV: frozenset[str] = frozenset(
     {
         "AI Research Engineer",

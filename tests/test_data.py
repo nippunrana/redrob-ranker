@@ -1,13 +1,9 @@
 """Tests for src/data.py — candidate loading and parsing."""
 
 import json
-import tempfile
 from pathlib import Path
 
-import pytest
-
 from src.data import Candidate, load_all, parse_candidate
-
 
 # ---------------------------------------------------------------------------
 # Fixtures
@@ -116,7 +112,10 @@ def test_candidate_text_property() -> None:
 
 def test_load_all_from_jsonl(tmp_path: Path) -> None:
     jsonl_file = tmp_path / "test.jsonl"
-    lines = [json.dumps(MINIMAL_RAW), json.dumps({**MINIMAL_RAW, "candidate_id": "CAND_0000002"})]
+    lines = [
+        json.dumps(MINIMAL_RAW),
+        json.dumps({**MINIMAL_RAW, "candidate_id": "CAND_0000002"}),
+    ]
     jsonl_file.write_text("\n".join(lines), encoding="utf-8")
 
     candidates = load_all(jsonl_file)
