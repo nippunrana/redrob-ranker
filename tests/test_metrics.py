@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import numpy as np
 import pytest
+
 from eval.metrics import (
     average_precision,
     mean_average_precision,

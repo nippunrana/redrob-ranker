@@ -29,6 +29,8 @@ select = ["E", "F", "I", "B"]
 "eval/metrics.py" = ["E501"]
 # Gold-set notes are short annotation strings — line-length rule not useful.
 "eval/build_gold_set.py" = ["E501"]
+# Skill-dict data in test fixtures is wide by nature; wrapping hurts readability.
+"tests/test_scoring.py" = ["E501"]
 
 [tool.ruff.format]
 quote-style = "double"

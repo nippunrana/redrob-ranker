@@ -85,10 +85,12 @@ TITLE_ADJACENT_TECH: frozenset[str] = frozenset(
         "Analytics Engineer",
         "Data Engineer",
         "Senior Data Engineer",
+        "Data Analyst",
         "Backend Engineer",
         "Software Engineer",
         "Senior Software Engineer",
         "Senior Software Engineer (ML)",
+        "Junior ML Engineer",  # junior; experience_fit will penalise
         "Full Stack Developer",
         "Cloud Engineer",
         "DevOps Engineer",
