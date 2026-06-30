@@ -1,0 +1,95 @@
+{"candidate_id": "CAND_0000031", "tier": 5, "note": "RecSys@Swiggy; ret=5 prod=4 skills=5; india active owf; yoe=6"}
+{"candidate_id": "CAND_0011162", "tier": 5, "note": "RecSysEng; ret=5 prod=5 skills=9; india active owf; yoe=5.8"}
+{"candidate_id": "CAND_0006557", "tier": 5, "note": "NLP Engineer; ret=8 prod=4 skills=8; india active owf; yoe=7.9"}
+{"candidate_id": "CAND_0007412", "tier": 5, "note": "Applied ML; ret=8 prod=4 skills=4; india active owf; yoe=7.4"}
+{"candidate_id": "CAND_0008425", "tier": 5, "note": "Senior NLP; ret=11 prod=4 skills=5; india active owf; yoe=7.8"}
+{"candidate_id": "CAND_0002025", "tier": 5, "note": "Senior AI Eng; ret=6 prod=5 skills=6; india active owf; yoe=5.9"}
+{"candidate_id": "CAND_0009691", "tier": 5, "note": "Applied ML; ret=6 prod=3 skills=4; india active owf; yoe=6.2"}
+{"candidate_id": "CAND_0044222", "tier": 5, "note": "AI Eng (strong); ret=10 prod=3 skills=5; india active owf; yoe=7.7"}
+{"candidate_id": "CAND_0007009", "tier": 4, "note": "RecSysEng; ret=10 prod=0 skills=7; india owf; inactive; yoe=7.9"}
+{"candidate_id": "CAND_0007411", "tier": 4, "note": "Sr MLE; ret=7 prod=4 skills=6; india; inactive not-owf; yoe=8"}
+{"candidate_id": "CAND_0005260", "tier": 4, "note": "Senior NLP; ret=13 prod=3 skills=4; india active; not owf; yoe=5.2"}
+{"candidate_id": "CAND_0006418", "tier": 4, "note": "MLE; ret=3 prod=4 skills=6; india owf; inactive; yoe=5.7"}
+{"candidate_id": "CAND_0010685", "tier": 4, "note": "NLP Eng; ret=11 prod=5 skills=3; india owf; inactive; yoe=6.7"}
+{"candidate_id": "CAND_0005538", "tier": 4, "note": "Senior AI Eng; ret=6 prod=6 skills=1; india active owf; low skills"}
+{"candidate_id": "CAND_0006567", "tier": 4, "note": "Senior AI Eng; ret=4 prod=4 skills=2; india active owf; yoe=7.9"}
+{"candidate_id": "CAND_0030031", "tier": 4, "note": "AI Eng; ret=7 prod=5 skills=7; india active; not owf; yoe=5.7"}
+{"candidate_id": "CAND_0009024", "tier": 4, "note": "Search Eng; ret=6 prod=3 skills=3; india active owf; yoe=5.2"}
+{"candidate_id": "CAND_0010149", "tier": 4, "note": "MLE; ret=2 prod=2 skills=4; india active owf; yoe=6.9"}
+{"candidate_id": "CAND_0010603", "tier": 4, "note": "MLE; ret=2 prod=2 skills=2; india active owf; yoe=5.3"}
+{"candidate_id": "CAND_0050454", "tier": 4, "note": "AI Eng; ret=9 prod=1 skills=3; india active owf; yoe=6.8"}
+{"candidate_id": "CAND_0062247", "tier": 4, "note": "AI Eng; ret=9 prod=1 skills=7; india active owf; yoe=7.3"}
+{"candidate_id": "CAND_0058575", "tier": 4, "note": "AI Eng; ret=10 prod=1 skills=2; india active owf; yoe=5.8"}
+{"candidate_id": "CAND_0000200", "tier": 3, "note": "MLE; ret=1 prod=1 skills=3; india active owf; yoe=4.3 (low)"}
+{"candidate_id": "CAND_0000273", "tier": 3, "note": "MLE; ret=2 prod=2 skills=2; india active owf; yoe=5.8 ok"}
+{"candidate_id": "CAND_0000981", "tier": 3, "note": "MLE; ret=3 prod=2 skills=2; india; inactive not-owf; yoe=6.4"}
+{"candidate_id": "CAND_0001610", "tier": 3, "note": "MLE; ret=13 prod=4 skills=5; india active owf; yoe=3 too low"}
+{"candidate_id": "CAND_0002037", "tier": 3, "note": "MLE; ret=3 prod=2 skills=3; india active; not owf; yoe=5.5"}
+{"candidate_id": "CAND_0002120", "tier": 3, "note": "MLE; ret=3 prod=2 skills=5; non-India owf; yoe=6.5"}
+{"candidate_id": "CAND_0003557", "tier": 3, "note": "MLE; ret=2 prod=2 skills=4; india owf; inactive; yoe=6.8"}
+{"candidate_id": "CAND_0003841", "tier": 3, "note": "MLE; ret=2 prod=2 skills=2; india owf; inactive; yoe=5.0"}
+{"candidate_id": "CAND_0004972", "tier": 3, "note": "MLE; ret=1 prod=1 skills=3; india active; not owf; yoe=6.0"}
+{"candidate_id": "CAND_0008049", "tier": 3, "note": "MLE; ret=3 prod=2 skills=2; india; inactive not-owf; yoe=6.3"}
+{"candidate_id": "CAND_0010655", "tier": 3, "note": "MLE; ret=1 prod=1 skills=1; india active owf; yoe=5.8"}
+{"candidate_id": "CAND_0010770", "tier": 3, "note": "RecSys; ret=11 prod=4 skills=3; india active owf; yoe=15 high"}
+{"candidate_id": "CAND_0003977", "tier": 3, "note": "RecSys; ret=7 prod=0 skills=3; india; inactive not-owf; yoe=4.6"}
+{"candidate_id": "CAND_0007460", "tier": 3, "note": "AI Eng; ret=3 prod=1 skills=4; india active owf; yoe=4.7 low"}
+{"candidate_id": "CAND_0008239", "tier": 3, "note": "AI Eng; ret=3 prod=1 skills=6; india owf; inactive; yoe=4.0 low"}
+{"candidate_id": "CAND_0015578", "tier": 3, "note": "AI Eng; ret=3 prod=0 skills=6; india active owf; no prod evidence"}
+{"candidate_id": "CAND_0060054", "tier": 3, "note": "AI Eng; ret=13 prod=4 skills=3; india; inactive not-owf; yoe=6.4"}
+{"candidate_id": "CAND_0001131", "tier": 2, "note": "MLE; ret=0 prod=1 skills=2; india owf; no retrieval career; yoe=5.8"}
+{"candidate_id": "CAND_0001808", "tier": 2, "note": "MLE; ret=0 prod=1 skills=2; india; inactive not-owf; yoe=3.8 low"}
+{"candidate_id": "CAND_0001819", "tier": 2, "note": "MLE; ret=0 prod=1 skills=2; india active owf; no retrieval; yoe=4.4"}
+{"candidate_id": "CAND_0003791", "tier": 2, "note": "MLE; ret=0 prod=1 skills=3; non-India; inactive owf; yoe=6.6"}
+{"candidate_id": "CAND_0005477", "tier": 2, "note": "MLE; ret=0 prod=1 skills=1; india active owf; low signals; yoe=6.2"}
+{"candidate_id": "CAND_0005704", "tier": 2, "note": "MLE; ret=0 prod=0 skills=4; india owf; no career evidence; yoe=3.3"}
+{"candidate_id": "CAND_0006870", "tier": 2, "note": "MLE; ret=0 prod=1 skills=2; india active owf; no retrieval; yoe=3.9"}
+{"candidate_id": "CAND_0007052", "tier": 2, "note": "MLE; ret=0 prod=1 skills=5; india owf; no retrieval career; yoe=6.5"}
+{"candidate_id": "CAND_0007088", "tier": 2, "note": "MLE; ret=1 prod=0 skills=5; india; inactive not-owf; yoe=4.4"}
+{"candidate_id": "CAND_0011140", "tier": 2, "note": "MLE; ret=2 prod=2 skills=4; non-India; inactive owf; yoe=5.1"}
+{"candidate_id": "CAND_0020350", "tier": 2, "note": "AI Eng; ret=0 prod=1 skills=4; india active owf; no retrieval; yoe=5.8"}
+{"candidate_id": "CAND_0000112", "tier": 1, "note": "AI Specialist; ret=1 prod=0 skills=1; india; inactive not-owf"}
+{"candidate_id": "CAND_0000165", "tier": 1, "note": "AI Specialist; non-India active owf; JD no-visa, no reloc note"}
+{"candidate_id": "CAND_0000422", "tier": 1, "note": "AI Research Eng; india owf; explicitly JD-rejected title"}
+{"candidate_id": "CAND_0000705", "tier": 1, "note": "AI Research Eng; ret=0; india active; pure research red flag"}
+{"candidate_id": "CAND_0000969", "tier": 1, "note": "AI Specialist; india active owf; specialist=research-flavored"}
+{"candidate_id": "CAND_0001056", "tier": 1, "note": "CV Engineer; india; JD: re-learning fundamentals penalise"}
+{"candidate_id": "CAND_0001218", "tier": 1, "note": "AI Specialist; non-India; owf; JD explicitly rejected type"}
+{"candidate_id": "CAND_0001302", "tier": 1, "note": "CV Engineer; non-India; owf; CV primary, JD explicitly rejects"}
+{"candidate_id": "CAND_0001600", "tier": 1, "note": "AI Specialist; india active; not owf; research-flavored"}
+{"candidate_id": "CAND_0001940", "tier": 1, "note": "AI Research Eng; non-India active; JD explicitly rejects"}
+{"candidate_id": "CAND_0002270", "tier": 1, "note": "CV Engineer; india active; JD: CV/speech/robotics disqualifier"}
+{"candidate_id": "CAND_0002770", "tier": 1, "note": "AI Research Eng; india owf; inactive; pure research flag"}
+{"candidate_id": "CAND_0002793", "tier": 1, "note": "AI Specialist; india; inactive not-owf; consulting flavored"}
+{"candidate_id": "CAND_0003100", "tier": 1, "note": "AI Specialist; india; inactive not-owf; research risk"}
+{"candidate_id": "CAND_0003290", "tier": 1, "note": "CV Engineer; india owf; inactive; CV primary"}
+{"candidate_id": "CAND_0003506", "tier": 1, "note": "CV Engineer; india active; JD: CV/speech/robotics disqualifier"}
+{"candidate_id": "CAND_0003599", "tier": 1, "note": "CV Engineer; india owf; inactive; CV primary"}
+{"candidate_id": "CAND_0004402", "tier": 1, "note": "AI Research Eng; india active owf; JD explicitly rejects"}
+{"candidate_id": "CAND_0004628", "tier": 1, "note": "AI Research Eng; india owf; JD explicitly rejects"}
+{"candidate_id": "CAND_0005191", "tier": 1, "note": "AI Specialist; india owf; inactive; research/consulting risk"}
+{"candidate_id": "CAND_0000001", "tier": 1, "note": "Backend Eng; non-India; adjacent with zero retrieval evidence"}
+{"candidate_id": "CAND_0000010", "tier": 1, "note": "Data Eng; non-India; 1 retrieval hit but missing product signals"}
+{"candidate_id": "CAND_0000027", "tier": 1, "note": "DevOps; india active owf; 1 retrieval hit; wrong domain"}
+{"candidate_id": "CAND_0000032", "tier": 1, "note": ".NET Dev; india; not-owf; minimal ML relevance"}
+{"candidate_id": "CAND_0000015", "tier": 1, "note": "SW Eng; india owf; 1 retrieval hit; minimal evidence; yoe=5.4"}
+{"candidate_id": "CAND_0000002", "tier": 0, "note": "Operations Manager; non-tech; no retrieval; india"}
+{"candidate_id": "CAND_0000003", "tier": 0, "note": "Customer Support; non-tech; non-India"}
+{"candidate_id": "CAND_0000004", "tier": 0, "note": "Marketing Manager; non-tech; non-India"}
+{"candidate_id": "CAND_0000005", "tier": 0, "note": "Accountant; non-tech; india"}
+{"candidate_id": "CAND_0000006", "tier": 0, "note": "Business Analyst; non-tech; non-India"}
+{"candidate_id": "CAND_0000007", "tier": 0, "note": "Civil Engineer; non-tech; india"}
+{"candidate_id": "CAND_0000008", "tier": 0, "note": "Operations Manager; non-tech; india; services company"}
+{"candidate_id": "CAND_0000009", "tier": 0, "note": "Mechanical Engineer; non-tech; non-India"}
+{"candidate_id": "CAND_0000012", "tier": 0, "note": "Operations Manager; non-tech; india"}
+{"candidate_id": "CAND_0000013", "tier": 0, "note": "Civil Engineer; non-tech; non-India"}
+{"candidate_id": "CAND_0000016", "tier": 0, "note": "Accountant; non-tech; india"}
+{"candidate_id": "CAND_0000017", "tier": 0, "note": "Accountant; non-tech; india"}
+{"candidate_id": "CAND_0000019", "tier": 0, "note": "Project Manager; non-tech; india"}
+{"candidate_id": "CAND_0000020", "tier": 0, "note": "Mechanical Engineer; non-tech; india"}
+{"candidate_id": "CAND_0000021", "tier": 0, "note": "Project Manager; non-tech; india; keyword-stuffer"}
+{"candidate_id": "CAND_0000022", "tier": 0, "note": "Mechanical Engineer; non-tech; non-India"}
+{"candidate_id": "CAND_0000024", "tier": 0, "note": "HR Manager; non-tech; india; services company"}
+{"candidate_id": "CAND_0000026", "tier": 0, "note": "Graphic Designer; non-tech; india"}
+{"candidate_id": "CAND_0000028", "tier": 0, "note": "Operations Manager; non-tech; non-India; services"}
+{"candidate_id": "CAND_0000029", "tier": 0, "note": "Business Analyst; non-tech; india"}
