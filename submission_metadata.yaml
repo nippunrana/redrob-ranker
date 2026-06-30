@@ -14,7 +14,7 @@ github_repo: "https://github.com/egnitech/redrob-ranker"
 
 sandbox_link: "https://huggingface.co/spaces/egnitech/redrob-ranker"
 
-reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./egnitech-nippun.csv"
 
 compute:
   platform: "MacBook Pro M3"
