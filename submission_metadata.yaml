@@ -14,10 +14,10 @@ github_repo: "https://github.com/egnitech/redrob-ranker"
 
 sandbox_link: "https://huggingface.co/spaces/egnitech/redrob-ranker"
 
-reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./egnitech-nippun.csv"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./EgniTech.csv"
 
 compute:
-  platform: "MacBook Pro M3"
+  platform: "MacBook Air M4"
   cpu_cores: 8
   ram_gb: 16
   python_version: "3.9.6"
@@ -28,10 +28,11 @@ compute:
   pre_computation_time_minutes: 12
 
 ai_tools_used:
-  - "Claude"
+  - "Gemini"
+  - "Other" # Antigravity
 
 ai_usage_summary: |
-  Used Claude Code (claude-opus-4-8) as a pair-programmer for architecture
+  Used Gemini 3.5 Flash and Antigravity as a pair-programmer for architecture
   discussion, code generation, and iteration. No candidate data was fed to
   any LLM — all JD-grounding, scoring, and reasoning generation is
   deterministic code with no API calls during ranking.
