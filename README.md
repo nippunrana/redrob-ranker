@@ -13,7 +13,7 @@ pinned: false
 **Hack2Skill "India Runs" — Track 01: Intelligent Candidate Discovery & Ranking**
 
 Ranks the top 100 best-fit candidates for *Senior AI Engineer, Founding Team @ Redrob AI*
-from 100,000 candidates in **~10 seconds on CPU**.
+from 100,000 candidates in **~10.3 seconds on CPU**.
 
 ---
 
@@ -30,7 +30,7 @@ pip install -e ".[dev]"
 #    Skip if artifacts/dense_recall_ids.npy is already committed (it is).
 python precompute.py --candidates ./candidates.jsonl
 
-# 3. Rank — produces EgniTech.csv in ~10s
+# 3. Rank — produces EgniTech.csv in ~10.3s
 python rank.py --candidates ./candidates.jsonl --out ./EgniTech.csv
 
 # 4. Validate format
@@ -167,7 +167,7 @@ redrob-ranker/
     reasoning.py            # Feature-grounded reasoning string templates
   eval/
     metrics.py              # NDCG@k, MAP, P@k (matches challenge scoring exactly)
-    gold_set.jsonl          # 110 hand-labeled candidates, tiers 0–5
+    gold_set.jsonl          # 95 hand-labeled candidates, tiers 0–5
     evaluate.py             # Offline NDCG/MAP against gold set
   artifacts/
     dense_recall_ids.npy    # Top-10K candidate IDs by JD cosine (committed)

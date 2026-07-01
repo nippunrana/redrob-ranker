@@ -50,7 +50,7 @@ methodology_summary: |
   career dates, education timeline vs implied career start) hard-zeros double
   hits, 50% penalty for single hits. Zero keyword stuffers and zero honeypots
   in top-100. Feature-grounded reasoning strings cite actual facts from each
-  candidate object with no LLM. Total: 9.5s wall-clock on 100K candidates.
+  candidate object with no LLM. Total: ~10.3s wall-clock on 100K candidates.
 
 declarations:
   read_submission_spec: true
