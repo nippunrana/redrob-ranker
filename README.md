@@ -19,6 +19,9 @@ from 100,000 candidates in **~10 seconds on CPU**.
 
 ## Reproduce
 
+`candidates.jsonl` is not included in this repo (~465 MB, provided by the organizers). Place
+it at the repo root, or pass its path via `--candidates`, before running the commands below.
+
 ```bash
 # 1. Install dependencies
 pip install -e ".[dev]"
