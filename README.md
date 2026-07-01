@@ -1,3 +1,13 @@
+---
+title: Redrob Candidate Ranker
+emoji: 🎯
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+app_file: sandbox/app.py
+pinned: false
+---
+
 # Redrob Candidate Ranker
 
 **Hack2Skill "India Runs" — Track 01: Intelligent Candidate Discovery & Ranking**
@@ -183,6 +193,7 @@ pytest tests/ -q
 ## Sandbox demo
 
 ```bash
+pip install -e ".[sandbox]"
 streamlit run sandbox/app.py
 ```
 

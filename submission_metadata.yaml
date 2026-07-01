@@ -10,9 +10,9 @@ team_members:
     email: "nippun@egnitech.com"
     role: "Solo"
 
-github_repo: "https://github.com/egnitech/redrob-ranker"
+github_repo: "https://github.com/nippunrana/redrob-ranker"
 
-sandbox_link: "https://huggingface.co/spaces/egnitech/redrob-ranker"
+sandbox_link: "https://huggingface.co/spaces/nippunrana/redrob-ranker"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./EgniTech.csv"
 
